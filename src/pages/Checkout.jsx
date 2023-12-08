@@ -38,7 +38,7 @@ const Checkout = () => {
             <div className="col-md-5 col-lg-4 order-md-last">
               <div className="card mb-4">
                 <div className="card-header py-3 bg-light">
-                  <h5 className="mb-0">Order Summary</h5>
+                  <h5 className="mb-0">Order Summary Details</h5>
                 </div>
                 <div className="card-body">
                   <ul className="list-group list-group-flush">
@@ -71,7 +71,7 @@ const Checkout = () => {
                     <div className="row g-3">
                       <div className="col-sm-6 my-1">
                         <label for="firstName" className="form-label">
-                          First name
+                          First Name
                         </label>
                         <input
                           type="text"
@@ -87,7 +87,7 @@ const Checkout = () => {
 
                       <div className="col-sm-6 my-1">
                         <label for="lastName" className="form-label">
-                          Last name
+                          Last Name
                         </label>
                         <input
                           type="text"
